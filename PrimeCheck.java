@@ -19,6 +19,10 @@ public class PrimeCheck {
             }
         }
 
-        System.out.println(isPrime ? "Prime" : "Not Prime");
+       if(isPrime) {
+           System.out.println("Prime Number");
+       } else {
+           System.out.println("Not Prime Number");
+       }
     }
 }
